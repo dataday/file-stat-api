@@ -1,0 +1,8 @@
+{
+    "api": "file-stat-api",
+    "version": "0.1.0",
+    "status": "400 Bad Request",
+    "success": false,
+    "dateTime": "0000-00-00T00:00:00.000Z",
+    "message": "HttpError: looks like something went wrong."
+}

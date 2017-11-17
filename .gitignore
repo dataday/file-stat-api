@@ -1,0 +1,18 @@
+# Dotfiles
+.eslintcache
+
+# Logs
+logs
+*.log
+
+# MacOS
+*DS_Store
+
+# Dependency directory
+node_modules
+reports
+docs
+.nyc_output
+
+# Debug log from npm
+npm-debug.log

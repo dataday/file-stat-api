@@ -1,0 +1,5 @@
+{
+  "verbose": true,
+  "ext": "js,msj,json,sass,pug",
+  "exec": "node"
+}

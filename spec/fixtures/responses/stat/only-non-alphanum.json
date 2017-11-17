@@ -1,0 +1,12 @@
+{
+  "mean": {
+    "wordCount": 0,
+    "characterCount": 0,
+    "averageWordLength": 0,
+    "averageWordLengthRounded": 0
+  },
+  "median": 0,
+  "mode": {},
+  "characterFrequency": {},
+  "lineCount": 12
+}

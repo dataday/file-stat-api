@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "flow",
+    ["env", {
+      "targets": {
+        "node": "current"
+      },
+      "plugins": [
+        "istanbul",
+        "rewire"
+      ]
+    }]
+  ],
+  "plugins": [
+    "transform-object-rest-spread"
+  ],
+  "retainLines": true
+}

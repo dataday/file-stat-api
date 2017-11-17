@@ -1,0 +1,12 @@
+{
+  "recurseDepth": 10,
+  "sourceType": "module",
+  "source": {
+    "exclude": [ "node_modules", "coverage", "spec" ],
+    "include": [ "src", "README.md" ],
+    "excludePattern": "node_modules\/*"
+  },
+  "plugins": [
+    "node_modules/jsdoc-babel"
+  ]
+}

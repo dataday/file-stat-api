@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# @todo: use https://github.com/realestate-com-au/pact
+
+NODE_ENV=test find ./spec -name '*.spec.js' | xargs \
+  nyc --reporter=html --reporter=text --report-dir ./reports/coverage \
+  mocha --timeout 15500 --recursive --require babel-register --exit

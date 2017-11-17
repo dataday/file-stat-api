@@ -1,0 +1,16 @@
+{
+  "mean": {
+    "wordCount": 1,
+    "characterCount": 4,
+    "averageWordLength": 4,
+    "averageWordLengthRounded": 4
+  },
+  "median": 4,
+  "mode": {
+    "4": 1
+  },
+  "characterFrequency": {
+    "t": 2
+  },
+  "lineCount": 1
+}

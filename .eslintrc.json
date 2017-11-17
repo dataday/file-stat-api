@@ -1,0 +1,61 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "mocha/no-exclusive-tests": "error",
+    "import/no-namespace": 0,
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "indent": [
+      "error",
+      2
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "no-unused-vars": [2, {
+      "vars": "all",
+      "args": "after-used",
+      "argsIgnorePattern": "^_",
+      "varsIgnorePattern": "^_|mocha"
+    }],
+    "no-console": 0,
+    "id-length": [2, {
+      "min": 2,
+      "exceptions": ["x", "v", "T"]
+    }]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".mjs"
+        ]
+      }
+    }
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "plugins": [
+    "import",
+    "mocha"
+  ],
+  "extends": [
+    "recommended/node",
+    "recommended/node/style-guide"
+  ]
+}
